@@ -1,0 +1,8 @@
+R = AB + CD + EF - GH - IJ #Eager Execution
+print(' VECTORS ', R)
+
+R1 = np.add(AB,CD) #Functional Method
+R2 = np.subtract(R1,EF)
+R3 = np.add(R2,GH)
+R4 = np.subtract(R3,IJ)
+print ("VECTORS", R4)
